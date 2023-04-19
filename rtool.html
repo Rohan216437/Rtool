@@ -1,4 +1,4 @@
-Practical no. 2
+Practical no. 2 : Implementation of classification algorithm in r programming
 > rainfall<--c(700,1100,800,1200,600,900,1000,700,800,200,100)
 > rainfall.timeseries<-ts(rainfall,start=c(2012,1),frequency=12)
 > print(rainfall.timeseries)
@@ -6,7 +6,7 @@ Practical no. 2
   
   
   
-Practical no. 3
+Practical no. 3 : K-means clustering using r-tools
 > require(datasets)
 > data(iris)
 > str(iris)
@@ -23,7 +23,7 @@ Practical no. 3
   
   
   
-Practical no. 4
+Practical no. 4 : Prediction using Linear Regression
 > x<-c(151,174,146,357,357,375,74,257,255,346)
 > y<-c(265,247,254,476,587,237,538,259,120,134)
 > relation<-lm(y~x)
@@ -35,7 +35,7 @@ Practical no. 4
   
   
   
-Practical no. 5
+Practical no. 5 : Decision Tree using Classification
 > library(party)
 > print(head(readingSkills))
 > input.dat<-readingSkills[c(1:105),]
@@ -45,7 +45,7 @@ Practical no. 5
 > plot(output.tree)
   
   
-Practical no. 6
+Practical no. 6 : Data Analysis Time series Analysis
 > rainfall1<-c(150,120,200,150,100,200,300,400,700,200,100,120)
 > rainfall2<-c(50,420,100,450,500,100,600,80,20,500,600,220)
 > combined.rainfall<-matrix(c(rainfall1,rainfall2),nrow=12)
