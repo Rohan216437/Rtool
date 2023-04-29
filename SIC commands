@@ -31,6 +31,6 @@ Pract3 : ACL
 1 server , 2 pc and 1 router , RIP connection
 In Router , 
 ->access-list 100 permit tcp “server-ip-address” 0.255.255.255 host “PC1-ip-address” eq ftp 
-->int “PC1-serial-number(s0/1/0)”	->ip access-group 100 in 
+->int “PC1-FastEthernet-number(fa0/0)”	->ip access-group 100 in 
 Open CMD in PC ->ftp “server-ip-address”
 ID : cisco , Password : cisco
